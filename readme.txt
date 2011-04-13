@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-trimurl.php
 Tags: css, style, custom
 Requires at least: 3.0
 Tested up to: 3.1.1
-Stable tag: 1.0
+Stable tag: 0.1
 
 Enable to add custom CSS via admin panel (with syntax support).
 
@@ -33,5 +33,5 @@ wip
 New release available
 
 == Changelog ==
-= 1.0 =
-* First version
+= 0.1 =
+* First release
