@@ -1,0 +1,37 @@
+=== Custom CSS CC ===
+Contributors: Salvatore Noschese (DarkWolf)
+Donate link: http://www.darkwolf.it/donate-trimurl.php
+Tags: css, style, custom
+Requires at least: 3.0
+Tested up to: 3.1.1
+Stable tag: 1.0
+
+Enable to add custom CSS via admin panel (with syntax support).
+
+== Description ==
+
+With this plugin you can put custom css code without edit your theme (really useful in case of any theme/plugin update) ;)
+It contain also a syntax color and tab support for write a good css code.
+-
+You can see (in source code) here: http://vegamami.altervista.org/ :)
+
+== Screenshots ==
+
+http://www.darkwolf.it/_altervista_ht/MyCustomCSS_screenshot.jpg
+
+== Frequently Asked Questions ==
+
+wip
+
+== Installation ==
+
+1. Upload `my-custom-css` directory to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Upgrade Notice ==
+
+New release available
+
+== Changelog ==
+= 1.0 =
+* First version
