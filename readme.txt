@@ -16,7 +16,9 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Screenshots ==
 
-http://www.darkwolf.it/mgallery/?sa=item;id=4818
+`http://www.darkwolf.it/MGalleryItem.php?id=4818`
+
+Fonte: http://www.darkwolf.it/mgallery/?sa=item;id=4818
 
 == Frequently Asked Questions ==
 
