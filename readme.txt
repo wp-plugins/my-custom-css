@@ -1,5 +1,5 @@
 === My Custom CSS ===
-Contributors: Salvatore Noschese - <a href="http://www.darkwolf.it/" title="DarkWolf">DarkWolf</a>
+Contributors: Salvatore Noschese - DarkWolf
 Donate link: http://www.darkwolf.it/donate-trimurl.php
 Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
@@ -10,15 +10,15 @@ Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
 == Description ==
 
+Maked by Salvatore Noschese (DarkWolf): http://www.darkwolf.it/
+
 With this plugin you can put custom css code without edit your theme and/or your plugins (really useful in case of any theme/plugin update).
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Screenshots ==
 
-`/tags/0.1/MyCustomCSS.png`
-
-Fonte: http://www.darkwolf.it/mgallery/?sa=item;id=4818
+1. Fonte: http://www.darkwolf.it/mgallery/?sa=item;id=4818
 
 == Frequently Asked Questions ==
 
