@@ -22,8 +22,8 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 Author and demo:
 
-* Author Homepage: http://www.darkwolf.it/
-* Plugin maked for: http://vegamami.altervista.org/
+* Author Homepage: [DarkWolf](http://www.darkwolf.it/)
+* Plugin maked for: [VegAmami](http://vegamami.altervista.org/)
 
 == Screenshots ==
 
