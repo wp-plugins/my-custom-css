@@ -1,5 +1,5 @@
 === My Custom CSS ===
-Contributors: Salvatore Noschese - DarkWolf: http://www.darkwolf.it/
+Contributors: Salvatore Noschese - <a href="http://www.darkwolf.it/" title="DarkWolf">DarkWolf</a>
 Donate link: http://www.darkwolf.it/donate-trimurl.php
 Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
