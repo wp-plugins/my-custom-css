@@ -27,8 +27,8 @@ Author and demo:
 
 == Screenshots ==
 
-1. Fonte: http://www.darkwolf.it/mgallery/?sa=item;id=4818
-2. Source code from: http://vegamami.altervista.org/
+1. Admin Panel: http://www.darkwolf.it/mgallery/?sa=item;id=4818
+2. Source code: http://vegamami.altervista.org/
 
 == Frequently Asked Questions ==
 
