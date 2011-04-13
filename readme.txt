@@ -1,5 +1,5 @@
 === My Custom CSS ===
-Contributors: Salvatore Noschese (DarkWolf)
+Contributors: Salvatore Noschese - DarkWolf: http://www.darkwolf.it/
 Donate link: http://www.darkwolf.it/donate-trimurl.php
 Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
@@ -16,9 +16,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Screenshots ==
 
-`http://www.darkwolf.it/MGalleryItem.php?id=4818`
-
-Fonte: http://www.darkwolf.it/mgallery/?sa=item;id=4818
+http://www.darkwolf.it/mgallery/?sa=item;id=4818
 
 == Frequently Asked Questions ==
 
