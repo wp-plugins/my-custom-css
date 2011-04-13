@@ -22,7 +22,7 @@ http://www.darkwolf.it/_altervista_ht/MyCustomCSS_screenshot.jpg
 
 == Frequently Asked Questions ==
 
-Work In Progress
+Support forum: http://www.darkwolf.it/
 
 == Installation ==
 
