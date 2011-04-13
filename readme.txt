@@ -16,9 +16,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Screenshots ==
 
-`/trunk/MyCustomCSS.png`
-
-http://www.darkwolf.it/_altervista_ht/MyCustomCSS_screenshot.jpg
+http://www.darkwolf.it/mgallery/?sa=item;id=4818
 
 == Frequently Asked Questions ==
 
