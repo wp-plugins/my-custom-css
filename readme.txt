@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 3.1.1
 Stable tag: 0.1
 
-Enable to add custom CSS via admin panel (with syntax support).
+Enable to add Custom CSS Code via admin panel (with syntax support).
 
 == Description ==
 
@@ -21,7 +21,7 @@ http://www.darkwolf.it/_altervista_ht/MyCustomCSS_screenshot.jpg
 
 == Frequently Asked Questions ==
 
-wip
+Work In Progress
 
 == Installation ==
 
