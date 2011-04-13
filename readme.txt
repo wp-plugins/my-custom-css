@@ -13,8 +13,15 @@ Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 Maked by Salvatore Noschese (DarkWolf): http://www.darkwolf.it/
 
 With this plugin you can put custom css code without edit your theme and/or your plugins (really useful in case of any theme/plugin update).
+
 It contain also a syntax color and tab support for write a good css code.
+
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
+
+= Links =
+
+* Author Homepage: http://www.darkwolf.it/
+* Plugin maked for: http://vegamami.altervista.org/
 
 == Screenshots ==
 
