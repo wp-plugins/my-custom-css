@@ -1,4 +1,4 @@
-=== Custom CSS CC ===
+=== My Custom CSS ===
 Contributors: Salvatore Noschese (DarkWolf)
 Donate link: http://www.darkwolf.it/donate-trimurl.php
 Tags: css, style, custom
