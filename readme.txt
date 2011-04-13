@@ -1,12 +1,12 @@
 === My Custom CSS ===
 Contributors: Salvatore Noschese (DarkWolf)
 Donate link: http://www.darkwolf.it/donate-trimurl.php
-Tags: css, style, custom
+Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
 Tested up to: 3.1.1
 Stable tag: 0.1
 
-Enable to add Custom CSS Code via admin panel (with syntax support).
+Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
 == Description ==
 
