@@ -42,7 +42,9 @@ Support forum: http://www.darkwolf.it/
 
 == Upgrade Notice ==
 
-New release available
+= 0.2 =
+
+Some small fix and improvements
 
 == Changelog ==
 
