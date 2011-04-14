@@ -27,9 +27,9 @@ Author and demo:
 
 == Screenshots ==
 
-1. Custom Menu (with icon) in Admin Panel
-2. Admin Panel: http://www.darkwolf.it/mgallery/?sa=item;id=4818
-3. Source code: http://vegamami.altervista.org/
+1. Custom Menu (with icon) in Admin Panel + Plugin Box
+1. Fonte: http://www.darkwolf.it/mgallery/?sa=item;id=4818
+2. Source code: http://vegamami.altervista.org/
 
 == Frequently Asked Questions ==
 
@@ -44,7 +44,7 @@ Support forum: http://www.darkwolf.it/
 
 = 0.2 =
 
-Some small fix and improvements
+Some fix and improvements
 
 == Changelog ==
 
