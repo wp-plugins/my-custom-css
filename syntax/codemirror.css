@@ -1,4 +1,5 @@
 .CodeMirror {
+  overflow: auto;
   line-height: 1em;
   font-family: monospace;
   background: #fff;
