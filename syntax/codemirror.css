@@ -3,6 +3,8 @@
   font-family: monospace;
   background: #fff;
   border: 1px dotted #000;
+  height: auto;
+  min-height: 50px;
 }
 
 .CodeMirror-scroll {
