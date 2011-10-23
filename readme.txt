@@ -49,7 +49,7 @@ Update Syntax CodeMirror to Version 2.15 > press ctrl+f5 after upgrade (empty br
 
 = 0.3 =
 
-* Update Syntax CodeMirror to Version 2.15 (26-09-2011) > http://codemirror.net/
+* Update Syntax CodeMirror to Version 2.15 (26-09-2011) > *codemirror.net
 
 = 0.2 =
 
