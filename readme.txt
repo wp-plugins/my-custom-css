@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-trimurl.php
 Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 0.3
+Stable tag: 0.4
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,11 +41,15 @@ Support forum: http://www.darkwolf.it/
 
 == Upgrade Notice ==
 
-= 0.3 =
+= 0.4 =
 
-Update Syntax CodeMirror to Version 2.15 > press ctrl+f5 after upgrade (empty browser cache) if you have any problem.
+Some little fix in css auto height (codemirror.css)
 
 == Changelog ==
+
+= 0.4 =
+
+* Some little fix in css auto height (codemirror.css)
 
 = 0.3 =
 

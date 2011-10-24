@@ -6,7 +6,7 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 0.3
+Version: 0.4
 Author URI: http://www.darkwolf.it/
 */
 
