@@ -27,7 +27,7 @@ Author and demo:
 
 == Screenshots ==
 
-1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/mgallery/?sa=item;id=4818
+1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/forum/gallery/image/5854-mycustomcss/
 2. Source code: http://vegamami.altervista.org/
 
 == Frequently Asked Questions ==
