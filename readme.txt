@@ -1,6 +1,6 @@
 === My Custom CSS ===
 Contributors: DarkWolf
-Donate link: http://www.darkwolf.it/donate-trimurl.php
+Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
 Tested up to: 3.2.1
