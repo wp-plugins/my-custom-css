@@ -43,7 +43,9 @@ Support forum: http://www.darkwolf.it/
 
 = 0.5 =
 
-Some little fix in css auto height (codemirror.css)
+* Update Donate link to: http://www.darkwolf.it/donate-wp
+* Update CodeMirror (Syntax) to release 3.0: http://codemirror.net/
+* Add strip tag to prevent bad code: http://php.net/manual/en/function.strip-tags.php
 
 == Changelog ==
 
