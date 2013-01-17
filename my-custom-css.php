@@ -6,7 +6,7 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 0.4
+Version: 0.5
 Author URI: http://www.darkwolf.it/
 */
 
@@ -16,7 +16,8 @@ if (!defined('DB_NAME')) {
 }
 
 function add_my_custom_css() {
-	$mycustomcss = get_option('my_custom_css');
+	// Strip tag: Remove html tag from page! Just for security ;)
+	$mycustomcss = strip_tags(get_option('my_custom_css'));
 	if (!empty($mycustomcss)) {
 		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese\nDarkWolf: http://www.darkwolf.it/ */\n\n".$mycustomcss."\n</style>\n<!-- My Custom CSS End -->\n";
 	}
@@ -32,7 +33,6 @@ function mccss_admin() {
 function mccss_syntax() { ?>
 <!-- Syntax Support Start -->
 <link type="text/css" rel="stylesheet" href="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/codemirror.css"></link>
-<link type="text/css" rel="stylesheet" href="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/default.css"></link>
 <script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/codemirror.js"></script>
 <script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/css.js"></script>
 <!-- Syntax Support End -->
