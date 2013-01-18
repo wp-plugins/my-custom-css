@@ -6,11 +6,11 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 0.5
+Version: 0.6
 Author URI: http://www.darkwolf.it/
 */
 
-// Prevent Direct Access with homepage redirect */
+// Prevent Direct Access with homepage redirect
 if (!defined('DB_NAME')) {
 	header('Location: ../../../');
 }
@@ -26,20 +26,46 @@ function add_my_custom_css() {
 function mccss_admin() {
 	$icon_url = WP_PLUGIN_URL."/".str_replace(basename( __FILE__),"",plugin_basename(__FILE__))."css-icon.png";
 	$plugin_page = add_menu_page(__('My Custom CSS Panel','mccss'),__('My Custom CSS','mccss'), 'manage_options', 'my_custom_css', 'mccss_options', $icon_url, 61);
-	add_action( 'admin_init', 'register_settings_mccss' ); 	
+	add_action( 'admin_init', 'register_settings_mccss' );
 	add_action( 'admin_head-'. $plugin_page, 'mccss_syntax' );
+	// Disable "WP Editor" in this page if is active: http://wordpress.org/extend/plugins/wp-editor/
+	If ( is_plugin_active("wp-editor/wpeditor.php") && $_SERVER['QUERY_STRING'] == 'page=my_custom_css') {
+		function remove_wpeditor_header_info() {
+		// Wp Editor Style
+		wp_deregister_style('wpeditor');
+		wp_deregister_style('fancybox');
+		wp_deregister_style('codemirror');
+		wp_deregister_style('codemirror_dialog');
+		wp_deregister_style('codemirror_themes');
+		// Wp Editor Script
+		wp_deregister_script('wpeditor');
+		wp_deregister_script('wp-editor-posts-jquery');
+		wp_deregister_script('fancybox');
+		wp_deregister_script('codemirror');
+		wp_deregister_script('codemirror_php');
+		wp_deregister_script('codemirror_javascript');
+		wp_deregister_script('codemirror_css');
+		wp_deregister_script('codemirror_xml');
+		wp_deregister_script('codemirror_clike');
+		wp_deregister_script('codemirror_dialog');
+		wp_deregister_script('codemirror_search');
+		wp_deregister_script('codemirror_searchcursor');
+		wp_deregister_script('codemirror_mustache');
+		}
+	add_action('admin_init', 'remove_wpeditor_header_info', 20);
+	}
 }
 
 function mccss_syntax() { ?>
 <!-- Syntax Support Start -->
-<link type="text/css" rel="stylesheet" href="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/codemirror.css"></link>
+<link type="text/css" rel="stylesheet" href="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/codemirror.css" />
 <script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/codemirror.js"></script>
 <script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>syntax/css.js"></script>
 <!-- Syntax Support End -->
 <?php }
 
-// register settings
-function register_settings_mccss(){
+// Register Settings
+function register_settings_mccss() {
 	register_setting('mccss_settings','my_custom_css');
 }
 function mccss_options() {

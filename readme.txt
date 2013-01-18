@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 0.5
+Stable tag: 0.6
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,14 +41,17 @@ Support forum: http://www.darkwolf.it/
 
 == Upgrade Notice ==
 
-= 0.5 =
+= 0.6 =
 
-* Update Donate link to: http://www.darkwolf.it/donate-wp
-* Update CodeMirror (Syntax) to release 3.0: http://codemirror.net/
-* Add strip tag to prevent bad code: http://php.net/manual/en/function.strip-tags.php
+* Fix incompatibility with WP Editor Plugin + Little fix in CSS!
 
 == Changelog ==
 
+
+= 0.6 =
+
+* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
+* Some little fix in CSS!
 
 = 0.5 =
 
