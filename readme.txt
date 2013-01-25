@@ -20,10 +20,8 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = Links =
 
-Author and demo:
-
 * Author Homepage: [DarkWolf](http://www.darkwolf.it/)
-* Plugin maked for: [VegAmami](http://vegamami.altervista.org/)
+* Plugin maked for (demo link): [VegAmami](http://vegamami.altervista.org/)
 
 = Language =
 
