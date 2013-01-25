@@ -1,13 +1,14 @@
 <?php
 /*
 Plugin Name: My Custom CSS
-Plugin URI: http://www.darkwolf.it/
+Plugin URI: http://wordpress.org/extend/plugins/my-custom-css/
 Description: With this plugin you can put custom css code without edit your theme and/or your plugins (really useful in case of any theme/plugin update).
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 0.6
+Version: 0.7
 Author URI: http://www.darkwolf.it/
+Text Domain: mccss
 */
 
 // Prevent Direct Access with homepage redirect
@@ -22,6 +23,19 @@ function add_my_custom_css() {
 		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese\nDarkWolf: http://www.darkwolf.it/ */\n\n".$mycustomcss."\n</style>\n<!-- My Custom CSS End -->\n";
 	}
 }
+
+// Start Add link on plugins page
+function my_custom_css_links($links) { 
+	# Settings:
+	$settings_link = '<a href="admin.php?page=my_custom_css" title="My Custom CSS">'.__('Settings','mccss').'</a>';
+	array_unshift($links, $settings_link);
+	# Support:
+	$support_forum = '<a href="http://www.darkwolf.it/" title="DarkWolf">'.__('Support Forum','mccss').'</a>';
+	array_unshift($links, $support_forum);
+	# return:
+	return $links;
+}
+// End Add link on plugins page
 
 function mccss_admin() {
 	$icon_url = WP_PLUGIN_URL."/".str_replace(basename( __FILE__),"",plugin_basename(__FILE__))."css-icon.png";
@@ -68,17 +82,19 @@ function mccss_syntax() { ?>
 function register_settings_mccss() {
 	register_setting('mccss_settings','my_custom_css');
 }
+
 function mccss_options() {
+
 ?>
 <div class="wrap">
-	<h2><?php _e('My Custom CSS Options','mccss')?></h2>
+	<h2><?php _e('My Custom CSS Options','mccss'); ?></h2>
 	<form method="post" action="options.php">
 	<?php settings_fields( 'mccss_settings' ); ?>
 	<p><?php _e('Custom CSS Code:','mccss'); ?></p>
-	<textarea name="my_custom_css" id="my_custom_css" dir="ltr" cols="100" rows="10" class="css"><?php echo get_option('my_custom_css');?></textarea>
+	<textarea name="my_custom_css" id="my_custom_css" dir="ltr" style="width:100%;height:350px;"><?php echo get_option('my_custom_css'); ?></textarea>
 	<script language="javascript">var editor = CodeMirror.fromTextArea(document.getElementById("my_custom_css"), { lineNumbers: true });</script>
 	<p class="submit">
-    	<input type="submit" class="button-primary" value="<?php _e('Save') ?>" />
+    	<input type="submit" class="button-primary" value="<?php _e('Save','mccss'); ?>" />
    	</p>
 	</form>
 </div>
@@ -87,6 +103,7 @@ function mccss_options() {
 
 add_action('admin_menu', 'mccss_admin');
 add_action('wp_head', 'add_my_custom_css');
+add_filter("plugin_action_links_".plugin_basename(__FILE__)."", 'my_custom_css_links' );
 load_plugin_textdomain('mccss', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
 
 ?>
