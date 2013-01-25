@@ -1,4 +1,4 @@
-// CodeMirror version 3.01
+// CodeMirror version 3.02
 //
 // CodeMirror is the only global var we claim
 window.CodeMirror = (function() {
@@ -1317,13 +1317,24 @@ window.CodeMirror = (function() {
     on(d.scrollbarV, "mousedown", reFocus);
     // Prevent wrapper from ever scrolling
     on(d.wrapper, "scroll", function() { d.wrapper.scrollTop = d.wrapper.scrollLeft = 0; });
-    on(window, "resize", function resizeHandler() {
+
+    if (!window.registered) window.registered = 0;
+    ++window.registered;
+    function onResize() {
       // Might be a text scaling operation, clear size caches.
       d.cachedCharWidth = d.cachedTextHeight = null;
       clearCaches(cm);
-      if (d.wrapper.parentNode) updateDisplay(cm, true);
-      else off(window, "resize", resizeHandler);
-    });
+      updateDisplay(cm, true);
+    }
+    on(window, "resize", onResize);
+    // Above handler holds on to the editor and its data structures.
+    // Here we poll to unregister it when the editor is no longer in
+    // the document, so that it can be garbage-collected.
+    setTimeout(function unregister() {
+      for (var p = d.wrapper.parentNode; p && p != document.body; p = p.parentNode) {}
+      if (p) setTimeout(unregister, 5000);
+      else {--window.registered; off(window, "resize", onResize);}
+    }, 5000);
 
     on(d.input, "keyup", operation(cm, function(e) {
       if (cm.options.onKeyEvent && cm.options.onKeyEvent(cm, addStop(e))) return;
@@ -4769,7 +4780,7 @@ window.CodeMirror = (function() {
 
   // THE END
 
-  CodeMirror.version = "3.01";
+  CodeMirror.version = "3.02";
 
   return CodeMirror;
 })();

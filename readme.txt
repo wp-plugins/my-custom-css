@@ -1,10 +1,10 @@
 === My Custom CSS ===
 Contributors: DarkWolf
 Donate link: http://www.darkwolf.it/donate-wp
-Tags: css, style, custom, theme, plugin, stylesheet
+Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 0.7
+Stable tag: 0.8
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -20,19 +20,19 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = Links =
 
-Author and demo:
-
 * Author Homepage: [DarkWolf](http://www.darkwolf.it/)
-* Plugin maked for: [VegAmami](http://vegamami.altervista.org/)
+* Plugin maked for (demo link): [VegAmami](http://vegamami.altervista.org/)
+
+= Language =
+
+* English
+* Italian
+* (If you translate in your language, please, send me) :)
 
 == Screenshots ==
 
 1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/forum/gallery/image/5854-mycustomcss/
 2. Source code: http://vegamami.altervista.org/
-
-== Frequently Asked Questions ==
-
-Support forum: http://www.darkwolf.it/
 
 == Installation ==
 
@@ -41,16 +41,21 @@ Support forum: http://www.darkwolf.it/
 
 == Upgrade Notice ==
 
-= 0.7 =
+= 0.8 =
 
-* Changed plugin URI, CSS fix if no JS enablad, updated CodeMirror, some fix/translation and new link in plugins page!
+* Updated codemirror to release 3.02 and little fix in readme.txt!
 
 == Changelog ==
 
 
+= 0.8 =
+
+* Updated codemirror to release 3.02!
+* Some little change to readme.txt (removed faq and fixed other info).
+
 = 0.7 =
 
-* Changed plugin URI from http://www.darkwolf.it/ to: http://wordpress.org/extend/plugins/my-custom-css/
+* Changed plugin URI from darkwolf.it to wordpress.org
 * Some CSS fix if no JavaScript enabled in browser
 * Updated CodeMirror (Syntax) to latest release (atm 3.01)
 * New Support and Setting link in plugins list
@@ -58,8 +63,8 @@ Support forum: http://www.darkwolf.it/
 
 = 0.6 =
 
-* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
 * Some little fix in CSS!
+* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
 
 = 0.5 =
 
