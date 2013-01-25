@@ -43,7 +43,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 0.8 =
 
-* Updated codemirror to release 3.02 and little fix in readme.txt!
+* Updated codemirror to release 3.02 and little fix in readme.txt
 
 == Changelog ==
 
