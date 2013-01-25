@@ -27,6 +27,8 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 * English
 * Italian
+-
+* If you translate in your language, please, send me :)
 
 == Screenshots ==
 
@@ -53,7 +55,7 @@ Support forum: http://www.darkwolf.it/
 
 = 0.7 =
 
-* Changed plugin URI from http://www.darkwolf.it/ to: http://wordpress.org/extend/plugins/my-custom-css/
+* Changed plugin URI from darkwolf.it to wordpress.org
 * Some CSS fix if no JavaScript enabled in browser
 * Updated CodeMirror (Syntax) to latest release (atm 3.01)
 * New Support and Setting link in plugins list
