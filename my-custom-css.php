@@ -30,7 +30,7 @@ function my_custom_css_links($links) {
 	$settings_link = '<a href="admin.php?page=my_custom_css" title="My Custom CSS">'.__('Settings','mccss').'</a>';
 	array_unshift($links, $settings_link);
 	# Support:
-	$support_forum = '<a href="http://www.darkwolf.it/" title="DarkWolf">'.__('Support Forum','mccss').'</a>';
+	$support_forum = '<a href="http://www.darkwolf.it/" title="DarkWolf">'.__('Support','mccss').'</a>';
 	array_unshift($links, $support_forum);
 	# return:
 	return $links;
