@@ -25,6 +25,11 @@ Author and demo:
 * Author Homepage: [DarkWolf](http://www.darkwolf.it/)
 * Plugin maked for: [VegAmami](http://vegamami.altervista.org/)
 
+= Language =
+
+* English
+* Itaian
+
 == Screenshots ==
 
 1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/forum/gallery/image/5854-mycustomcss/
