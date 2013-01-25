@@ -26,7 +26,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 = Language =
 
 * English
-* Itaian
+* Italian
 
 == Screenshots ==
 
