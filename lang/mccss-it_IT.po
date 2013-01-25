@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My Custom CSS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-25 04:39+0100\n"
+"POT-Creation-Date: 2013-01-25 19:29+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Salvatore Noschese (DarkWolf) <admin@darkwolf.it>\n"
 "Language-Team: DarkWolf <http://www.darkwolf.it/>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: C:\\wamp\\www\\my-custom-css\n"
 
-#: E:\my-custom-css\trunk/my-custom-css.php:29
-msgid "My Custom CSS Panel"
-msgstr "Pannello My Custom CSS"
-
-#: E:\my-custom-css\trunk/my-custom-css.php:29
-msgid "My Custom CSS"
-msgstr "My Custom CSS"
-
-#: E:\my-custom-css\trunk/my-custom-css.php:63
+#: E:\my-custom-css\trunk/my-custom-css.php:30
 msgid "Settings"
 msgstr "Opzioni"
 
-#: E:\my-custom-css\trunk/my-custom-css.php:66
-msgid "Support Forum"
-msgstr "Forum di Supporto"
+#: E:\my-custom-css\trunk/my-custom-css.php:33
+msgid "Support"
+msgstr "Supporto"
 
-#: E:\my-custom-css\trunk/my-custom-css.php:88
+#: E:\my-custom-css\trunk/my-custom-css.php:42
+msgid "My Custom CSS Panel"
+msgstr "Pannello My Custom CSS"
+
+#: E:\my-custom-css\trunk/my-custom-css.php:42
+msgid "My Custom CSS"
+msgstr "My Custom CSS"
+
+#: E:\my-custom-css\trunk/my-custom-css.php:90
 msgid "My Custom CSS Options"
 msgstr "Opzioni My Custom CSS"
 
-#: E:\my-custom-css\trunk/my-custom-css.php:91
+#: E:\my-custom-css\trunk/my-custom-css.php:93
 msgid "Custom CSS Code:"
 msgstr "Codice CSS Personale:"
 
-#: E:\my-custom-css\trunk/my-custom-css.php:95
+#: E:\my-custom-css\trunk/my-custom-css.php:97
 msgid "Save"
 msgstr "Salva"
 
