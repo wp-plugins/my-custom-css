@@ -34,10 +34,6 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/forum/gallery/image/5854-mycustomcss/
 2. Source code: http://vegamami.altervista.org/
 
-== Frequently Asked Questions ==
-
-Support forum: http://www.darkwolf.it/
-
 == Installation ==
 
 1. Upload `my-custom-css` directory to the `/wp-content/plugins/` directory
