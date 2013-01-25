@@ -1,10 +1,10 @@
 === My Custom CSS ===
 Contributors: DarkWolf
 Donate link: http://www.darkwolf.it/donate-wp
-Tags: css, style, custom, theme, plugin, stylesheet
+Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 0.7
+Stable tag: 0.8
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,12 +41,17 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 0.7 =
+= 0.8 =
 
-* Changed plugin URI, CSS fix if no JS enablad, updated CodeMirror, some fix/translation and new link in plugins page!
+* Updated codemirror to release 3.02 and little fix in readme.txt!
 
 == Changelog ==
 
+
+= 0.8 =
+
+* Updated codemirror to release 3.02!
+* Some little change to readme.txt (removed faq and fixed other info).
 
 = 0.7 =
 
@@ -58,8 +63,8 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 0.6 =
 
-* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
 * Some little fix in CSS!
+* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
 
 = 0.5 =
 
