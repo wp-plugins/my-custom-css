@@ -27,8 +27,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 * English
 * Italian
--
-If you translate in your language, please, send me :)
+* (If you translate in your language, please, send me) :)
 
 == Screenshots ==
 
