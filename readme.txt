@@ -3,8 +3,8 @@ Contributors: DarkWolf
 Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 0.8
+Tested up to: 3.5.1
+Stable tag: 0.9
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,12 +41,17 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 0.8 =
+= 0.9 =
 
-* Updated codemirror to release 3.02 and little fix in readme.txt
+* Very minor change: Plugin priority to 999 (now latest in header)
 
 == Changelog ==
 
+
+= 0.9 =
+
+* Very minor change: Plugin priority to 999 (now latest in header)
+* Some little fix and clean/indent in php code
 
 = 0.8 =
 
