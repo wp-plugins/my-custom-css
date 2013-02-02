@@ -6,7 +6,7 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 0.9
+Version: 1.0
 Author URI: http://www.darkwolf.it/
 Text Domain: mccss
 */
@@ -41,10 +41,19 @@ function my_custom_css_links($links)
 }
 // End Add link on plugins page
 
+// Change the CSS for this plugin on admin plugins page
+function my_custom_css_plugin_style()
+{
+	global $pagenow;
+	if ($pagenow == "plugins.php")
+	{
+		echo "<style type=\"text/css\">\n#my-custom-css {\n\tbackground-color: #ffffe0;\n}\n#my-custom-css td.plugin-title {\n\tbackground: url(\"".WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png"."\") no-repeat 105px 6px;\n}\n</style>\n";
+	}
+}
+
 function mccss_admin()
 {
-	$icon_url = WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png";
-	$plugin_page = add_menu_page(__('My Custom CSS Panel','mccss'),__('My Custom CSS','mccss'), 'manage_options', 'my_custom_css', 'mccss_options', $icon_url, 61);
+	$plugin_page = add_menu_page(__('My Custom CSS Panel','mccss'),__('My Custom CSS','mccss'), 'manage_options', 'my_custom_css', 'mccss_options', WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png", 61);
 	add_action('admin_init', 'register_settings_mccss');
 	add_action('admin_head-'. $plugin_page, 'mccss_syntax');
 	// Disable "WP Editor" in this page if is active: http://wordpress.org/extend/plugins/wp-editor/
@@ -114,6 +123,7 @@ function mccss_options()
 
 add_action('admin_menu', 'mccss_admin');
 add_action('wp_head', 'add_my_custom_css', 999);
+add_action('admin_print_styles', 'my_custom_css_plugin_style');
 add_filter("plugin_action_links_".plugin_basename(__FILE__)."", 'my_custom_css_links');
 load_plugin_textdomain('mccss', false, dirname(plugin_basename(__FILE__)) . '/lang/');
 

@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 0.9
+Stable tag: 1.0
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,12 +41,16 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 0.9 =
+= 1.0 =
 
-* Very minor change: Plugin priority to 999 (now latest in header)
+* Add CSS Style background and icon in plugins page :)
 
 == Changelog ==
 
+
+= 1.0 =
+
+* Add CSS Style background and icon in plugins page :)
 
 = 0.9 =
 
