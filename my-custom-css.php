@@ -47,7 +47,7 @@ function my_custom_css_plugin_style()
 	global $pagenow;
 	if ($pagenow == "plugins.php")
 	{
-		echo "<style type=\"text/css\">\n#my-custom-css {\n\tbackground-color: #ffffe0;\n}\n#my-custom-css td.plugin-title {\n\tbackground: url(\"".WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png"."\") no-repeat 105px 6px;\n}\n</style>\n";
+		echo "<style type=\"text/css\">\n#my-custom-css {\n\tbackground-color: #ffffe0;\n}\n#my-custom-css td.plugin-title strong {\n\tbackground: url(\"".WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png"."\") no-repeat 98px 1px;\n}\n#my-custom-css div.row-actions-visible {\n\tpadding-top: 15px;\n}\n#my-custom-css div.plugin-version-author-uri {\n\tbackground-color: #EAEAEA;\n\tborder-radius: 5px 5px 5px 5px;\n\tbox-shadow: 0 8px 6px -6px gray; \n\tfont-weight: bold; \n\tpadding: 7px 5px; \n\tmargin-bottom: 12px;\n}\n</style>\n";
 	}
 }
 
