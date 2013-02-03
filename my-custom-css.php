@@ -39,6 +39,14 @@ function my_custom_css_links($links)
 	# return:
 	return $links;
 }
+function add_plugin_meta_links($links, $file)
+{
+	if ($file == plugin_basename(__FILE__))
+	{
+		$links[] = '<a href="http://www.darkwolf.it/donate-wp" title="Buy Me a Beer ;)">Donate :)</a>';
+	}
+	return $links;
+}
 // End Add link on plugins page
 
 // Change the CSS for this plugin on admin plugins page
@@ -124,7 +132,8 @@ function mccss_options()
 add_action('admin_menu', 'mccss_admin');
 add_action('wp_head', 'add_my_custom_css', 999);
 add_action('admin_print_styles', 'my_custom_css_plugin_style');
-add_filter("plugin_action_links_".plugin_basename(__FILE__)."", 'my_custom_css_links');
+add_filter('plugin_row_meta', 'add_plugin_meta_links', 10, 2);
+add_filter('plugin_action_links_'.plugin_basename(__FILE__).'', 'my_custom_css_links');
 load_plugin_textdomain('mccss', false, dirname(plugin_basename(__FILE__)) . '/lang/');
 
 ?>
