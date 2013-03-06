@@ -50,7 +50,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 1.2 =
 
-* Removed background in plugin list: wordpress.org/support/topic/plugins-page-colour
+* Removed background in plugin list: <a href="http://wordpress.org/support/topic/plugins-page-colour">support/topic/plugins-page-colour</a>
 
 = 1.1 =
 
