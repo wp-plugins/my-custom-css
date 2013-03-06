@@ -14,7 +14,7 @@ Maked by Salvatore Noschese (DarkWolf): http://www.darkwolf.it/
 
 With this plugin you can put custom css code without edit your theme and/or your plugins (really useful in case of any theme/plugin update).
 
-It contain also a syntax color and tab support for write a good css code.
+It contain also a Syntax (by <a href="http://codemirror.net/">CodeMirror</a>) color and tab support for write a good css code.
 
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
@@ -54,7 +54,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 1.1 =
 
-* Updated codemirror to release 3.1!
+* Updated CodeMirror to release 3.1!
 
 = 1.0 =
 
@@ -67,7 +67,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 0.8 =
 
-* Updated codemirror to release 3.02!
+* Updated CodeMirror to release 3.02!
 * Some little change to readme.txt (removed faq and fixed other info).
 
 = 0.7 =
@@ -81,13 +81,13 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 = 0.6 =
 
 * Some little fix in CSS!
-* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
+* Fix incompatibility with WP Editor Plugin: <a href="http://wordpress.org/extend/plugins/wp-editor/">/extend/plugins/wp-editor/</a>
 
 = 0.5 =
 
-* Update Donate link to: http://www.darkwolf.it/donate-wp
-* Update CodeMirror (Syntax) to release 3.0: http://codemirror.net/
-* Add strip tag to prevent bad code: http://php.net/manual/en/function.strip-tags.php
+* Update Donate link to: <a href="http://www.darkwolf.it/donate-wp">darkwolf.it/donate-wp</a>
+* Update CodeMirror (Syntax) to release 3.0: <a href="http://codemirror.net/">codemirror.net</a>
+* Add strip tag to prevent bad code: <a href="http://php.net/manual/en/function.strip-tags.php">function.strip-tags.php</a>
 
 = 0.4 =
 
@@ -95,7 +95,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 0.3 =
 
-* Update Syntax CodeMirror to Version 2.15 (26-09-2011) > *codemirror.net
+* Update Syntax CodeMirror to Version 2.15: <a href="http://codemirror.net/">codemirror.net</a>
 
 = 0.2 =
 
