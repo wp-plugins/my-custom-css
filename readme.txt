@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,12 +41,16 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 1.1 =
+= 1.2 =
 
-* Updated codemirror to release 3.1!
+* Removed background in plugin list: wordpress.org/support/topic/plugins-page-colour
 
 == Changelog ==
 
+
+= 1.2 =
+
+* Removed background in plugin list: wordpress.org/support/topic/plugins-page-colour
 
 = 1.1 =
 

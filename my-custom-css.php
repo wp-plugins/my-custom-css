@@ -6,7 +6,7 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 1.1
+Version: 1.2
 Author URI: http://www.darkwolf.it/
 Text Domain: mccss
 */
@@ -55,7 +55,7 @@ function my_custom_css_plugin_style()
 	global $pagenow;
 	if ($pagenow == "plugins.php")
 	{
-		echo "<style type=\"text/css\">\n#my-custom-css {\n\tbackground-color: #ffffe0;\n}\n#my-custom-css td.plugin-title strong {\n\tbackground: url(\"".WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png"."\") no-repeat 98px 1px;\n}\n#my-custom-css div.row-actions-visible {\n\tpadding-top: 15px;\n}\n#my-custom-css div.plugin-version-author-uri {\n\tbackground-color: #EAEAEA;\n\tborder-radius: 5px 5px 5px 5px;\n\tbox-shadow: 0 8px 6px -6px gray; \n\tfont-weight: bold; \n\tpadding: 7px 5px; \n\tmargin-bottom: 12px;\n}\n</style>\n";
+		echo "<style type=\"text/css\">\n#my-custom-css td.plugin-title strong {\n\tbackground: url(\"".WP_PLUGIN_URL."/".str_replace(basename(__FILE__),"",plugin_basename(__FILE__))."css-icon.png"."\") no-repeat 98px 1px;\n}\n#my-custom-css div.row-actions-visible {\n\tpadding-top: 15px;\n}\n#my-custom-css div.plugin-version-author-uri {\n\tbackground-color: #EAEAEA;\n\tborder-radius: 5px;\n\tbox-shadow: 0 8px 6px -6px gray; \n\tfont-weight: bold; \n\tpadding: 7px; \n\tmargin-bottom: 12px;\n}\n</style>\n";
 	}
 }
 
