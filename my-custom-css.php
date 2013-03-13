@@ -18,6 +18,16 @@ if (!defined('DB_NAME') && $_SERVER["QUERY_STRING"] !== 'css')
 	header('Location: http://'.$_SERVER['SERVER_NAME'].'/');
 }
 
+// Fix first upgrade from old release or manual my_style.css deletion!
+$mycustomcss = mycustomcss();
+if (!empty($mycustomcss))
+{
+	if (!file_exists(css_path()))
+	{
+		makecss();
+	}
+}
+	
 function css_path()
 {
 	$css_path = plugin_dir_path(__FILE__)."my_style.css";
@@ -38,25 +48,25 @@ function icon_link()
 
 function mycustomcss()
 {
+	// Strip tag for security reason!
 	$mycustomcss = strip_tags(get_option('my_custom_css'));
 	return $mycustomcss;
 }
 
 function makecss()
 {
+	// make my_style.css and write write css code!
 	$makecss = file_put_contents(css_path(), "/******* Do not delete this file *********/\n/*\nMy Custom CSS - Maked by Salvatore Noschese\na.k.a. DarkWolf - http://www://darkwolf.it/\n*/\n\n".mycustomcss());
 	return $makecss;
 }
 
+
 function add_my_custom_css()
 {
-	// Strip tag: Remove html tag from page! Just for security ;)
 	$mycustomcss = mycustomcss();
 	if (!empty($mycustomcss))
 	{
-		// Fix first upgrade from old release or manual file deletion!
-		if (!file_exists(css_path())) { makecss(); }
-		// Fix first upgrade from old release or manual file deletion!
+		// Write in source!
 		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese */\n@import url('".css_url()."?".filemtime(css_path())."')\n/* Also known as: DarkWolf - http://www.darkwolf.it/ */\n</style>\n<!-- My Custom CSS End -->\n";
 	}
 }
