@@ -31,8 +31,8 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Screenshots ==
 
-1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/forum/gallery/image/5854-mycustomcss/
-2. Source code: http://vegamami.altervista.org/
+1. Custom Menu in Admin Panel + Box
+2. Source code: <a href="http://vegamami.altervista.org/">Vegamami</a> | Stylesheet: <a href="http://vegamami.altervista.org/wp-content/plugins/my-custom-css/my_style.css">./my-custom-css/my_style.css</a>
 
 == Installation ==
 
