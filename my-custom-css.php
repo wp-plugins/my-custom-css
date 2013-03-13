@@ -57,7 +57,7 @@ function add_my_custom_css()
 		// Fix first upgrade from old release or manual file deletion!
 		if (!file_exists(css_path())) { makecss(); }
 		// Fix first upgrade from old release or manual file deletion!
-		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese */\n@import url(".css_url()."?".filemtime(css_path()).")\n/* Also known as: DarkWolf - http://www.darkwolf.it/ */\n</style>\n<!-- My Custom CSS End -->\n";
+		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese */\n@import url('".css_url()."?".filemtime(css_path())."')\n/* Also known as: DarkWolf - http://www.darkwolf.it/ */\n</style>\n<!-- My Custom CSS End -->\n";
 	}
 }
 
