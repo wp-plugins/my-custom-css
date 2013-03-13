@@ -20,12 +20,9 @@ if (!defined('DB_NAME') && $_SERVER["QUERY_STRING"] !== 'css')
 
 // Fix first upgrade from old release or manual my_style.css deletion!
 $mycustomcss = mycustomcss();
-if (!empty($mycustomcss))
+if (!empty($mycustomcss) && (!file_exists(css_path())))
 {
-	if (!file_exists(css_path()))
-	{
-		makecss();
-	}
+	makecss();
 }
 	
 function css_path()
