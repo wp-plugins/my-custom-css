@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.2
+Stable tag: 1.3
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -14,7 +14,7 @@ Maked by Salvatore Noschese (DarkWolf): http://www.darkwolf.it/
 
 With this plugin you can put custom css code without edit your theme and/or your plugins (really useful in case of any theme/plugin update).
 
-It contain also a syntax color and tab support for write a good css code.
+It contain also a Syntax (by <a href="http://codemirror.net/">CodeMirror</a>) color and tab support for write a good css code.
 
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
@@ -41,20 +41,27 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 1.2 =
+= 1.3 =
 
-* Removed background in plugin list: wordpress.org/support/topic/plugins-page-colour
+* More change in code (now use css file instead of inline code) and usability!
 
 == Changelog ==
 
 
+= 1.3 =
+
+* When you click on "Save" now code is save both on database and also in file "my_style.css[+ '?filemtime' to fix browser cache]" (made and updated via db+php only if is present css code). Thanks to this i can see custom css code in admin panel via database and put in source via file with '@import url("my_style.css[+ '?filemtime' to fix browser cache]")'. I think (and hope) that can optimize source code view and time load!
+* New "Save" button in plugin page (fixed via css in top right position)!
+* New "Top" button in bottom right position (classic "anchor" top button)!
+* Many other code clean and optimization!
+
 = 1.2 =
 
-* Removed background in plugin list: wordpress.org/support/topic/plugins-page-colour
+* Removed background in plugin list: <a href="http://wordpress.org/support/topic/plugins-page-colour">support/topic/plugins-page-colour</a>
 
 = 1.1 =
 
-* Updated codemirror to release 3.1!
+* Updated CodeMirror to release 3.1!
 
 = 1.0 =
 
@@ -67,7 +74,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 0.8 =
 
-* Updated codemirror to release 3.02!
+* Updated CodeMirror to release 3.02!
 * Some little change to readme.txt (removed faq and fixed other info).
 
 = 0.7 =
@@ -81,13 +88,13 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 = 0.6 =
 
 * Some little fix in CSS!
-* Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
+* Fix incompatibility with WP Editor Plugin: <a href="http://wordpress.org/extend/plugins/wp-editor/">/extend/plugins/wp-editor/</a>
 
 = 0.5 =
 
-* Update Donate link to: http://www.darkwolf.it/donate-wp
-* Update CodeMirror (Syntax) to release 3.0: http://codemirror.net/
-* Add strip tag to prevent bad code: http://php.net/manual/en/function.strip-tags.php
+* Update Donate link to: <a href="http://www.darkwolf.it/donate-wp">darkwolf.it/donate-wp</a>
+* Update CodeMirror (Syntax) to release 3.0: <a href="http://codemirror.net/">codemirror.net</a>
+* Add strip tag to prevent bad code: <a href="http://php.net/manual/en/function.strip-tags.php">function.strip-tags.php</a>
 
 = 0.4 =
 
@@ -95,7 +102,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 0.3 =
 
-* Update Syntax CodeMirror to Version 2.15 (26-09-2011) > *codemirror.net
+* Update Syntax CodeMirror to Version 2.15: <a href="http://codemirror.net/">codemirror.net</a>
 
 = 0.2 =
 
