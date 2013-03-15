@@ -47,7 +47,6 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Changelog ==
 
-
 = 1.0 =
 
 * Add CSS Style background and icon in plugins page :)
