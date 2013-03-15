@@ -47,7 +47,6 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Changelog ==
 
-
 = 1.1 =
 
 * Updated codemirror to release 3.1!
