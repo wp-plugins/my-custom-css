@@ -6,7 +6,7 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 1.3
+Version: 1.4
 Author URI: http://www.darkwolf.it/
 Text Domain: mccss
 */
@@ -64,7 +64,7 @@ function add_my_custom_css()
 	if (!empty($mycustomcss))
 	{
 		// Write in source!
-		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese */\n@import url('".css_url()."?".filemtime(css_path())."')\n/* Also known as: DarkWolf - http://www.darkwolf.it/ */\n</style>\n<!-- My Custom CSS End -->\n";
+		echo "\n<!-- My Custom CSS Start -->\n<style type=\"text/css\">\n/* Plugin Author: Salvatore Noschese */\n@import url('".css_url()."?".filemtime(css_path())."');\n/* Also known as: DarkWolf - http://www.darkwolf.it/ */\n</style>\n<!-- My Custom CSS End -->\n";
 	}
 }
 
