@@ -47,7 +47,6 @@ Support forum: http://www.darkwolf.it/
 
 == Changelog ==
 
-
 = 0.6 =
 
 * Fix incompatibility with WP Editor Plugin: http://wordpress.org/extend/plugins/wp-editor/
