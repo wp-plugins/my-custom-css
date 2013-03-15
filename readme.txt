@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.3
+Stable tag: 1.4
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -31,8 +31,8 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Screenshots ==
 
-1. Custom Menu in Admin Panel + Box: http://www.darkwolf.it/forum/gallery/image/5854-mycustomcss/
-2. Source code: http://vegamami.altervista.org/
+1. Custom Menu in Admin Panel + Box
+2. Source code: <a href="http://vegamami.altervista.org/">Vegamami</a> | Stylesheet: <a href="http://vegamami.altervista.org/wp-content/plugins/my-custom-css/my_style.css">./my-custom-css/my_style.css</a>
 
 == Installation ==
 
@@ -41,16 +41,19 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 1.3 =
+= 1.4 =
 
-* More change in code (now use css file instead of inline code) and usability!
+* Just an issue with safari browser!
 
 == Changelog ==
 
+= 1.4 =
+
+* Fix a small issue in "@import url()" (add ";") with safari browser!
 
 = 1.3 =
 
-* When you click on "Save" now code is save both on database and also in file "my_style.css[+ '?filemtime' to fix browser cache]" (made and updated via db+php only if is present css code). Thanks to this i can see custom css code in admin panel via database and put in source via file with '@import url("my_style.css[+ '?filemtime' to fix browser cache]")'. I think (and hope) that can optimize source code view and time load!
+* Now code is saved both on database and also in file "my_style.css[+ '?filemtime' to fix browser cache]" when you click on "Save" (made and updated via db+php only if is present css code). Thanks to this I can see custom css code in admin panel via database and put in source via file with '@import url("my_style.css[+ '?filemtime' to fix browser cache]")'. I think (and hope) that this can optimize source code view and time load!
 * New "Save" button in plugin page (fixed via css in top right position)!
 * New "Top" button in bottom right position (classic "anchor" top button)!
 * Many other code clean and optimization!
