@@ -47,7 +47,6 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Changelog ==
 
-
 = 0.9 =
 
 * Very minor change: Plugin priority to 999 (now latest in header)
