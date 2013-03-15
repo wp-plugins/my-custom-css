@@ -47,7 +47,6 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Changelog ==
 
-
 = 0.7 =
 
 * Changed plugin URI from darkwolf.it to wordpress.org
