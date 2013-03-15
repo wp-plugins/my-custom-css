@@ -49,7 +49,6 @@ Support forum: http://www.darkwolf.it/
 
 == Changelog ==
 
-
 = 0.5 =
 
 * Update Donate link to: http://www.darkwolf.it/donate-wp
