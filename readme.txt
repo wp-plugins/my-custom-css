@@ -47,7 +47,6 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Changelog ==
 
-
 = 1.3 =
 
 * Now code is saved both on database and also in file "my_style.css[+ '?filemtime' to fix browser cache]" when you click on "Save" (made and updated via db+php only if is present css code). Thanks to this I can see custom css code in admin panel via database and put in source via file with '@import url("my_style.css[+ '?filemtime' to fix browser cache]")'. I think (and hope) that this can optimize source code view and time load!
