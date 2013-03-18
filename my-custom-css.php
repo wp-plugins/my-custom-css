@@ -6,7 +6,7 @@ Description: With this plugin you can put custom css code without edit your them
 It contain also a syntax color and tab support for write a good css code.
 You can see in action (source code) here: http://vegamami.altervista.org/ :)
 Author: Salvatore Noschese - DarkWolf
-Version: 1.4
+Version: 1.5
 Author URI: http://www.darkwolf.it/
 Text Domain: mccss
 */
@@ -27,13 +27,15 @@ if (!empty($mycustomcss) && (!file_exists(css_path())))
 	
 function css_path()
 {
-	$css_path = plugin_dir_path(__FILE__)."my_style.css";
+	global $blog_id; $cssid = ( $blog_id > "1" ) ? $cssid = "_id-".$blog_id : $cssid = null;
+	$css_path = plugin_dir_path(__FILE__)."my_style".$cssid.".css";
 	return $css_path;
 }
 
 function css_url()
 {
-	$css_url = plugin_dir_url(__FILE__)."my_style.css";
+	global $blog_id; $cssid = ( $blog_id > "1" ) ? $cssid = "_id-".$blog_id : $cssid = null;
+	$css_url = plugin_dir_url(__FILE__)."my_style".$cssid.".css";
 	return $css_url;
 }
 
@@ -178,13 +180,13 @@ function mccss_options()
 <?php
 	// Save also in *.css file!
 	$mycustomcss = mycustomcss();
-	if (empty($mycustomcss))
-	{
-		unlink(css_path());
-	}
-	else
+	if (!empty($mycustomcss))
 	{
 		makecss();
+	}
+	elseif (empty($mycustomcss) && file_exists(css_path()))
+	{
+		unlink(css_path());
 	}
 }
 
