@@ -4,7 +4,7 @@ Donate link: http://www.darkwolf.it/donate-wp
 Tags: css, style, custom, theme, plugin, stylesheet, darkwolf
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.4
+Stable tag: 1.5
 
 Enable to add Custom CSS Code via admin panel (with syntax and tab support).
 
@@ -41,11 +41,15 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 == Upgrade Notice ==
 
-= 1.4 =
+= 1.5 =
 
-* Just an issue with safari browser!
+* Full compatible with Wordpress multisite (network mode)!
 
 == Changelog ==
+
+= 1.5 =
+
+* Now is full compatible in network mode (multisite support)!
 
 = 1.4 =
 
