@@ -43,7 +43,7 @@ You can see in action (source code) here: http://vegamami.altervista.org/ :)
 
 = 1.5 =
 
-* Full compatible with Wordpress multisite (network mode)!
+* New feture: Full compatible with Wordpress multisite (network mode)!
 
 == Changelog ==
 
