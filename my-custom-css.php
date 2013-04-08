@@ -13,7 +13,7 @@ Text Domain: mccss
 
 
 // Prevent Direct Access with homepage redirect
-if (!defined('DB_NAME') && $_SERVER["QUERY_STRING"] !== 'css')
+if (!defined('DB_NAME'))
 {
 	header('Location: http://'.$_SERVER['SERVER_NAME'].'/');
 }
